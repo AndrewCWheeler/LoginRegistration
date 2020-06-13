@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Success";
+}
+@model User
+
+<div class="row">
+    <div class="mt-2 mb-4 col text-center">
+        <h1 class="text-success">Success!</h1>
+        <h3>Welcome to this Cool Site, @ViewBag.LoggedUser.FirstName!</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="mt-5 col text-center">
+        <a href="/Logout" class="btn btn-outline-primary btn-lg">Logout</a>
+    </div>
+</div>
